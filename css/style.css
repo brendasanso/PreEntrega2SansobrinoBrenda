@@ -59,6 +59,7 @@ p {
 .contacto-background {
   border-radius: 8px;
   color: black;
+  background-color: aliceblue;
 }
 
 .footer-background {
@@ -85,4 +86,12 @@ p {
   width: 40px;
   height: auto;
   display: flex;
+}
+
+.btn-ladygaga {
+  background-color: rgb(136, 174, 208);
+  color: white;
+  border: 2px solid rgb(106, 136, 162);
+  border-radius: 10px 0px 10px 0px;
+  padding: 10px;
 }
