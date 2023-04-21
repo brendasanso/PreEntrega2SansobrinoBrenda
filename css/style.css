@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #ffd4d4;
   color: black;
@@ -16,6 +22,7 @@ header {
 main {
   background-color: #ecf9ff;
 }
+
 .section-index {
   background-image: url("../assets/58ad71dde31ca9284e4e2162274ecfc0.jpg");
   width: 100%;
@@ -41,15 +48,22 @@ footer {
   background-color: #ecf9ff;
   color: black;
   width: 100%;
-  height: 700px;
-  text-transform: capitalize;
+  height: 850px;
+  background-position: center;
 }
 
 h1 {
   color: #ffd4d4;
+  text-align: center;
 }
+
 p {
   font-size: large;
+  padding: 1% 2%;
+}
+
+h2 {
+  text-align: center;
 }
 
 .section-text {
@@ -95,3 +109,5 @@ p {
   border-radius: 10px 0px 10px 0px;
   padding: 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
