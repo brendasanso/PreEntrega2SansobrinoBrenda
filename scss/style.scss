@@ -50,8 +50,12 @@ footer {
 .main-background {
 	background-color: $background-color_2;
 	color: $color_1;
+	max-width: 700%;
 	width: 100%;
-	height: 850px;
+	height: auto;
+	padding: 45px 20px;
+	margin: 0 auto;
+	margin-top: 150px;
 	background-position: center;
 }
 h1 {
@@ -61,6 +65,7 @@ h1 {
 p {
 	font-size: large;
 	padding: 1% 2%;
+	font-family: sans-serif;
 }
 h2 {
 	text-align: center;
